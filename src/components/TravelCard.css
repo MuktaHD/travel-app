@@ -1,0 +1,84 @@
+.travel-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+     width: 18rem;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .travel-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+
+  .travel-card img:hover{
+   
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color: #001b29;
+    transition: transform 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+
+  }
+
+
+  .travel-card h2 {
+    font-size: 1.5em;
+    margin: 16px 0;
+  }
+  
+  .travel-card p {
+    margin: 8px 0;
+  }
+  
+  .toggle-link {
+    color: blue;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover{
+    background-color: #e00b08;
+    color: white;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: font-size 0.3s ease;
+
+  }
+  .refresh-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 16px auto;
+  }
+  
+  .refresh-button:hover{
+    background-color: #0ee919;
+    color: white;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: font-size 0.3s ease;
+  }

@@ -1,7 +1,16 @@
 .App {
   text-align: center;
+  
 }
+.App h3{
+  border: #61dafb;
+  border-radius: 90%;
+  
+  color: rgb(243, 24, 24);
+  padding: 10px;
+  background-color: #61dafb;
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +45,5 @@
     transform: rotate(360deg);
   }
 }
+
+
