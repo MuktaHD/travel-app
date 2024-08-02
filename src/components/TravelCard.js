@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './TravelCard.css';
-
 function TravelCard({ card, onDelete }) {
   const [showMore, setShowMore] = useState(false);
 
